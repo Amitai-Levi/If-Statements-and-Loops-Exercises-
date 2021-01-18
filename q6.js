@@ -1,0 +1,14 @@
+const num1 = 80;
+const num2 = 77;
+const num3 = 88;
+const num4 = 95;
+const num5 = 68;
+const avg = (num1 + num2 + num3 + num4 + num5) / 5;
+alert("The average is " + avg);
+let grade;
+if (avg < 60) garde = "F";
+else if (avg < 70) grade = "D";
+else if (avg < 80) grade = "C";
+else if (avg < 90) grade = "B";
+else grade = "A";
+alert("The grade is " + grade);
